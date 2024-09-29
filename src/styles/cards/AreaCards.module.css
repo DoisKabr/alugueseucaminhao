@@ -1,0 +1,87 @@
+.secao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    width: 100%;
+
+    padding: 5rem;
+}
+
+.secao a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 700px;
+
+    border: 3px solid var(--cor-vermelho-padrao);
+    border-radius: 20px;
+
+    transition: all 1s ease;
+
+    overflow: hidden;
+}
+
+.secao a:hover {
+    transform: scale(1.1);
+}
+
+.secao a img {
+    width: 100%;
+    aspect-ratio: 4/3;
+
+    object-fit: cover;
+}
+
+.secao a h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+
+    color: #fff;
+
+    background-color: var(--cor-vermelho-padrao);
+
+    padding: 1rem 0rem;
+}
+
+.secao a h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    width: 100%;
+
+    font-size: 1.2rem;
+
+    padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .secao {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    
+        padding: 2rem;
+    }
+
+    .secao a {
+        width: 500px;
+        height: 700px;
+    }
+
+    .secao a:hover {
+        transform: scale(1);
+    }
+}

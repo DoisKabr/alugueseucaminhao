@@ -1,0 +1,23 @@
+:root {
+  --cor-vermelho-padrao: rgb(220, 60, 20);
+  --cor-vermelho-background: rgb(37, 21, 21);
+  --cor-azul-caminhao: rgba(89, 129, 185, 1);
+  --cor-cinza-peca: #AEA4AE;
+  --cor-fundo-menu: rgb(124, 35, 12);
+}
+
+html,
+body,
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cor-vermelho-background);
+  color: #fff;
+
+  transition: all 1s ease;
+}
