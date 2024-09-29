@@ -94,7 +94,7 @@
         flex-direction: column;
 
         width: 100%;
-        height: 100vh;
+        height: 100%;
 
         padding: 0rem;
         border-radius: 0px;
@@ -108,9 +108,9 @@
 
         width: 100%;
         min-height: 10vh;
-        text-wrap: nowrap;
+        text-wrap: wrap;
 
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         text-align: center;
 
@@ -133,7 +133,7 @@
         width: 100%;
         height: 100%;
 
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-align: center;
         color: rgba(200, 200, 200, 1);
     }

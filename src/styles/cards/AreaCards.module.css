@@ -73,11 +73,11 @@
         flex-wrap: wrap;
         gap: 50px;
     
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .secao a {
-        width: 500px;
+        width: 100%;
         height: 700px;
     }
 

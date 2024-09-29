@@ -111,6 +111,7 @@
 
 @media screen and (max-width: 500px) {
     .secao {
+        width: 100%;
         padding: 3rem 0rem;
     }
 
@@ -122,6 +123,11 @@
         border: none;
         border-top: 5px solid var(--cor-vermelho-padrao);
         border-bottom: 5px solid var(--cor-vermelho-padrao);
+
+        padding: 1rem;
+
+        width: 100%;
+        max-width: 100%;
 
         border-radius: 0px;
     }
