@@ -109,7 +109,7 @@
     color: var(--cor-vermelho-padrao);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .secao {
         width: 100%;
         padding: 3rem 0rem;
